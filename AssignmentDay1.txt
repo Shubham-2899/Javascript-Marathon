@@ -1,0 +1,51 @@
+				Assignment For Day 1
+
+ 1 Use of JavaScript
+-> Web Applications
+   Mobile Applications using libraries like react native
+   Web Development
+   Web servers can be created by using Node.js
+
+ 2 Difference between client-side and server-side
+-> 
+	
+	Client side		      				server side
+
+    Runs on the user’s computer     		   Runs on the web server
+   
+    Reduces load on the server’s proccessing       As server provides dynamic websites to user.
+						   It increases the processing load on server.
+   
+    Does not need interaction with the server      Requires interaction with the server
+
+    Languages used:  HTML, CSS, JavaScript         Languages used: PHP, ASP.net, Python
+
+
+ 3 Node js
+-> Node.js is javascript runtime environment based on google chrome's v8 engine.
+   Using Node.js we can run Js code outside the browser. With the use of Node.js 
+   we can use javascript in server side. 
+
+ 4 Scope in JS
+-> Scope refers to the availability of variables and functions in certain parts of the code.
+   In JavaScript, a variable has two types of scope:
+	1-Global Scope
+	2-Local Scope
+
+   Global Scope -: A variable declared at the top of a program or outside of a function is considered
+		   a global scope variable.
+ 		   The value of a global variable can be accessed through out the program.
+		   The value of a global can be changed inside the functions
+
+   Local Scope -: A variables declared inside the function or in any block have local scope means those variables 
+                  are not availabe ouside the function.
+
+ 5 JavaScript is a "synchronous" .
+
+ 6 JavaScript is a single threaded synchronous language.
+
+ 7 DOM- Document object model
+   The DOM represents the HtML document as nodes and object.Whenever browser loads
+   any document it creates the tree like structure of nodes and object. That is called as DOM.
+   With this DOM we can interact with the pages using
+   DOM manipulation methods.We can add/delete elements to the page. 
