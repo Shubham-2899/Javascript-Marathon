@@ -1,0 +1,111 @@
+				Assignment Day 2
+
+ 1- Lexical Structure
+-> Lexical structure of Javascript is the set of elementary rules that specifies how we can write 
+   programs in Javascript.It is the syntax of language ,it specifies how to declare variables 
+   functions and statement.
+
+   Literals and Identifiers
+   Comments
+   Case sensitive
+   Optional Semicolon
+   Reserved words
+
+ 2- Unicode
+-> Computer stores letters and other characters by assigning a unique number for each.
+   This standard of encoding (assigning) unique number is called Unicode Standard.
+   Javascript is written in Unicode. Hence, we can use Emojis as variables and 
+   we can write identifiers in any language.
+
+ 3- Keywords in Javascript
+-> List of keywords
+	1- await	
+	2-break	
+	3- case	
+	4-catch	
+	5-class
+	6-const	
+	7-continue	
+	8-debugger	
+	9-default	
+	10-delete
+	11-do	
+	12-else	
+	13-enum	
+	14-export	
+	15-extends
+	16-false	
+	17-finally
+	18-for	
+	19-function	
+	20-if
+	21-implements	
+	22-import	
+	23-in	
+	24-instanceof	
+	25-interface
+	26-let	
+	27-new	
+	28-null	
+	29-package	
+	30-private
+	31-protected	
+	32-public	
+	33-return	
+	34-super	
+	35-switch
+	36-static	
+	37-this	
+	38-throw	
+	39-try	
+	40-true
+	41-typeof	
+	42-var	
+	43-void	
+	44-while	
+	45-with
+	46-yield
+
+ 4- Shorthand Operators are the shorter ways to write the expressions
+    1- increment ++
+       It is used to increase the value of operand by 1
+       eg-
+ 		let a=5;
+		a++;     // a=6;
+
+
+    2- decrement --
+       It is used to decrease the value of operand by 1
+       eg-
+ 		let a=5;
+		a--;     // a=4;
+
+    3- +=
+       eg-
+		let a=5;
+		let b=6;
+		
+		a+=b;   // a=a+b  a=5+6=11;
+
+     Similarly we have -= , *= , /= , %= 
+
+ 5- "use strict" in javascript
+     "use strict"  indicate that the code should be executed in "strict mode".
+     
+     If we declare "use strict" at the start of js file , it will be applied to entire script,
+     means if we use variable without declaring, it will throw an error.
+
+   eg -
+	without "use strict"
+	abc=9;  //  we assigned a value to abc variable without declaring but will not throw an error
+
+	with "use strict"
+	
+	abc=8;  //error 
+
+	
+    It helps to write clean and secure code.
+
+   
+	
+       
